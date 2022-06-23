@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+}
+
+body{
+    /*background-color: rgb(73, 73, 72);*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+ .paginas{
+    text-decoration: none;
+    font-weight: 550;
+
+    max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.inicio{
+    background-color: black;
+}
+
+.inicio a{
+    color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: rgb(240, 232, 232);
+	transition: .3s ease-out all;
+}
+.inicio a:hover{
+    background: #809baf;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.texto1{
+    color: azure;
+    margin-top: 3%;
+    text-align: center;
+
+}
+
+.img1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: calc(70% - 50px);
+}
+
+.img2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: calc(50% - 50px);
+}
+
+.img3 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: calc(30% - 50px);
+}
+
+.texto2{
+    color: azure;
+    text-align: center;
+    margin-top: 17%;
+   /* margin-right: 40%;*/
+}
+
+.comentario{
+    left: 35%;
+    position: absolute;
+    width: 400px;
+    height: 160px;
+}
+
+.enviar{
+    margin-top: 5%;
+    /*position: absolute;*/
+    margin-left: 70%;
+    width: 100px;
+    height: 50px;
+}
